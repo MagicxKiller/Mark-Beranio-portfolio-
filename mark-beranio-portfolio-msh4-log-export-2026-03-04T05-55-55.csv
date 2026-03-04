@@ -1,0 +1,190 @@
+TimeUTC,timestampInMs,requestPath,requestMethod,requestQueryString,responseStatusCode,requestId,requestUserAgent,level,environment,branch,vercelCache,type,function,host,deploymentDomain,deploymentId,durationMs,region,maxMemoryUsed,memorySize,message,projectId,traceId,sessionId,invocationId,instanceId,concurrency
+2026-03-04 05:50:17,1772603417924,mark-beranio-portfolio-msh4.vercel.app/favicon.ico,GET,,500,gvvq7-1772603417366-31558023d8c1,"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",error,production,main,MISS,function,/favicon.ico,mark-beranio-portfolio-msh4.vercel.app,mark-beranio-portfolio-msh4.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:50:17,1772603417366,mark-beranio-portfolio-msh4.vercel.app/favicon.ico,GET,,500,gvvq7-1772603417366-31558023d8c1,"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",,production,main,MISS,function,/main,mark-beranio-portfolio-msh4.vercel.app,mark-beranio-portfolio-msh4.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,177,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVPB945ZV77HPMB7PSSS25B,,-1
+2026-03-04 05:50:16,1772603416959,mark-beranio-portfolio-msh4.vercel.app/,GET,,500,nhndn-1772603415392-2a9bfa509268,"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",error,production,main,MISS,function,/,mark-beranio-portfolio-msh4.vercel.app,mark-beranio-portfolio-msh4.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:50:15,1772603415392,mark-beranio-portfolio-msh4.vercel.app/,GET,,500,nhndn-1772603415392-2a9bfa509268,"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",,production,main,MISS,function,/main,mark-beranio-portfolio-msh4.vercel.app,mark-beranio-portfolio-msh4.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,198,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVPB855KJC5S2VEF1CAGZ6S,,-1
+2026-03-04 05:47:44,1772603264601,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,vn6pt-1772603264377-597fb82024eb,vercel-favicon/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:44,1772603264377,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,vn6pt-1772603264377-597fb82024eb,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,175,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6KCYNG40G263XYTAZKHR,,-1
+2026-03-04 05:47:44,1772603264036,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.png,GET,,500,772gm-1772603263815-226edd79eff0,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:43,1772603263815,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.png,GET,,500,772gm-1772603263815-226edd79eff0,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,172,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6JVAFP6CSMT1J5B91CVS,,-1
+2026-03-04 05:47:43,1772603263256,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,hchhd-1772603263037-95a4659f7f30,vercel-favicon/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:43,1772603263037,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,hchhd-1772603263037-95a4659f7f30,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,170,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6J32B1G4G7MRT6FMZTWF,,-1
+2026-03-04 05:47:41,1772603261679,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.png,GET,,500,fm47j-1772603261447-ba436ca0e40d,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:41,1772603261447,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.png,GET,,500,fm47j-1772603261447-ba436ca0e40d,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,171,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6GHS868STYRSK9AGQFC4,,-1
+2026-03-04 05:47:40,1772603260408,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.png,GET,,500,cn5b8-1772603260192-97101053e99f,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:40,1772603260192,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.png,GET,,500,cn5b8-1772603260192-97101053e99f,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,167,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6FA5FZKRG21KH91YDZHK,,-1
+2026-03-04 05:47:40,1772603260157,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,dp8qz-1772603259933-8c2c8ca24cf1,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.ico,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:39,1772603259933,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,dp8qz-1772603259933-8c2c8ca24cf1,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,175,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6F23QSW9V9C8ZN470GB5,,-1
+2026-03-04 05:47:37,1772603257864,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,tcl6p-1772603257632-035614925357,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.ico,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:37,1772603257632,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,tcl6p-1772603257632-035614925357,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,178,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6CT6VW3SZ7PK0B3HKRR8,,-1
+2026-03-04 05:47:36,1772603256534,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,2krfz-1772603256313-8ec9948b526d,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.ico,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:36,1772603256313,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,2krfz-1772603256313-8ec9948b526d,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,173,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6BGWWSTRZ5T7HT85PFM9,,-1
+2026-03-04 05:47:36,1772603256207,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,zvztw-1772603255983-2ca948841b1c,vercel-favicon/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:35,1772603255983,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,zvztw-1772603255983-2ca948841b1c,vercel-favicon/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,167,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP6B6R2152P0H23VYFZ2PD,,-1
+2026-03-04 05:47:34,1772603254905,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,,tw52k-1772603254674-f67f674d11f7,vercel-favicon/1.0,error,production,main,,function,,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:34,1772603254674,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,,tw52k-1772603254674-f67f674d11f7,vercel-favicon/1.0,,production,main,,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,175,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP69XVDNTQCKRQQMH2630T,,-1
+2026-03-04 05:47:23,1772603243726,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,,2bjzt-1772603243390-263fb9a60280,vercel-screenshot/1.0,error,production,main,,function,,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:23,1772603243390,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,,2bjzt-1772603243390-263fb9a60280,vercel-screenshot/1.0,,production,main,,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,178,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP5Z0CX9EH2NTX60JF6ZSZ,,-1
+2026-03-04 05:47:23,1772603243435,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,hm2kv-1772603243098-a36d8b9f21d1,vercel-screenshot/1.0,error,production,main,MISS,function,/favicon.ico,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:23,1772603243098,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/favicon.ico,GET,,500,hm2kv-1772603243098-a36d8b9f21d1,vercel-screenshot/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,172,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP5YQE0QYBDT41VXNFV78W,,-1
+2026-03-04 05:47:23,1772603243313,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,fctlb-1772603243065-a129cd58b6da,vercel-screenshot/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:23,1772603243065,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,fctlb-1772603243065-a129cd58b6da,vercel-screenshot/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,189,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP5YJZ5ATTQASJ1Y54W4PW,,-1
+2026-03-04 05:47:23,1772603243015,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,qxxs8-1772603242672-44bb08e09247,vercel-screenshot/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:22,1772603242672,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,qxxs8-1772603242672-44bb08e09247,vercel-screenshot/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,190,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP5Y9KA76ACFPDS71JAC3Z,,-1
+2026-03-04 05:47:22,1772603242967,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,f9cns-1772603241963-a8687a73e9c2,vercel-screenshot/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:21,1772603241963,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,f9cns-1772603241963-a8687a73e9c2,vercel-screenshot/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,193,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP5XTDPJW8X5C8BH3RNQY7,,-1
+2026-03-04 05:47:22,1772603242513,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,z967q-1772603241951-6065db9b9358,vercel-screenshot/1.0,error,production,main,MISS,function,/,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,,,,,"Error importing main.py:
+Traceback (most recent call last):
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 532, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+File ""<frozen importlib._bootstrap_external>"", line 1132, in get_code
+File ""<frozen importlib._bootstrap_external>"", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/var/task/main.py'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,,,
+2026-03-04 05:47:21,1772603241951,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app/,GET,,500,z967q-1772603241951-6065db9b9358,vercel-screenshot/1.0,,production,main,MISS,function,/main,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,mark-beranio-portfolio-msh4-dgj8lcgeq-magicxkillers-projects.vercel.app,dpl_8vHXDs2JooswxaNfQdvFyMAMNzN5,193,iad1,-1,2048,,prj_oAp3s2Gp2H5LEkqKOjwsudGn9JTS,,,01KJVP5XSWAXYA8ZTK8HXG65WH,,-1
