@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Beranio - Portfolio</title>
+    <style>
+        /* CSS STYLES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            /* Set the background image */
+            background-image: url('https://raw.githubusercontent.com/MagicxKiller/Killing-Farm/refs/heads/main/Ling%20Collector%20skin%20Walpapers%20MLBB%204K.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        /* The main card container */
+        .profile-card {
+            background: rgba(0, 0, 0, 0.75); /* Dark semi-transparent background */
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 500px;
+            width: 90%;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #00d2ff; /* Cyan border */
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0, 210, 255, 0.5);
+        }
+
+        /* Typing Animation Text */
+        .typing-text {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            min-height: 40px; /* Prevents layout jump */
+            color: #00d2ff;
+        }
+
+        /* Cursor blinking effect */
+        .cursor {
+            display: inline-block;
+            width: 3px;
+            background-color: white;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Description Text */
+        .description {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+            margin-bottom: 25px;
+        }
+
+        /* Skills Section (Added as requested) */
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .skill-tag {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Profile Image -->
+        <img src="https://raw.githubusercontent.com/MagicxKiller/Killing-Farm/refs/heads/main/1771830262411.jpg" alt="Mark Beranio" class="profile-img">
+        
+        <!-- Typing Animation Container -->
+        <h1 class="typing-text">
+            <span id="text"></span><span class="cursor">&nbsp;</span>
+        </h1>
+
+        <!-- Description -->
+        <p class="description">
+            This website is for practicing purposes only. I am learning JavaScript, HTML, CSS, PHP, and other languages to build my own website and i want to be a professional developer.
+        </p>
+
+        <!-- Added Skills Section -->
+        <div class="skills">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Python 3</span>
+            <span class="skill-tag">C+</span>
+        </div>
+    </div>
+
+    <script>
+        // JAVASCRIPT ANIMATION
+        const textElement = document.getElementById('text');
+        const textToType = "Mark Beranio";
+        let charIndex = 0;
+        let isDeleting = false;
+        let typeSpeed = 150; // Speed of typing
+
+        function type() {
+            const currentText = textToType;
+
+            if (isDeleting) {
+                // Remove characters
+                textElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+                typeSpeed = 50; // Faster when deleting
+            } else {
+                // Add characters
+                textElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+                typeSpeed = 150; // Normal typing speed
+            }
+
+            if (!isDeleting && charIndex === currentText.length) {
+                // Finished typing, pause before deleting
+                isDeleting = true;
+                typeSpeed = 2000; // Wait 2 seconds before deleting
+            } else if (isDeleting && charIndex === 0) {
+                // Finished deleting, pause before typing again
+                isDeleting = false;
+                typeSpeed = 500; // Wait 0.5 seconds before typing
+            }
+
+            setTimeout(type, typeSpeed);
+        }
+
+        // Start the animation when page loads
+        document.addEventListener('DOMContentLoaded', type);
+    </script>
+
+</body>
+</html>
